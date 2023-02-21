@@ -1,0 +1,444 @@
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* Header Section */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+ }
+
+.nav-item {
+  padding: 0 20px 0 0;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 28px;
+  color: #333333;
+}
+
+/* Footer Section */
+footer {
+  background-color: #BDD1D8;;
+  display: flex;
+  color:#495E57;
+  padding: 20px;
+  height: auto;
+  justify-content: space-evenly;
+}
+.site-links h2 {
+  width: 148px;
+  margin-top: 10px;
+}
+
+.site-links a {
+  color:#495E57;
+  display: block;
+  margin-top: 5px;
+}
+
+footer h3 {
+  color:#495E57;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.footer-img {
+  height: 250px;
+  width: 184px;
+  margin-left: 100px;
+}
+
+.social-media .image-container {
+  display: flex;
+}
+
+.social-media .image-container img {
+  width: 56px;
+  height: 64px;
+  margin: 10px;
+}
+
+/* Home Page */
+
+/* Hero Section */
+.hero-section {
+  background-color: #495E57;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.hero-section h2 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-size: 2rem;
+  color: #F4CE14;
+  margin: 0;
+  
+}
+
+.hero-section h3 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #EDEFEE;
+  margin: 0;
+}
+
+.hero-section .reservation-btn {
+  background-color: #F4CE14;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.hero-section p {
+  color: #EDEFEE;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 200px;
+  line-height: 140.28%;
+}
+
+.hero-section a {
+  display: inline-block;
+}
+
+.hero-image-container {
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.hero-section .hero-image {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  bottom: -70px;
+}
+
+/* Menu Section */
+
+.menu-section {
+  margin: 40px 0px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align:start;
+  margin: 0 220px 0 0;
+}
+
+.menu-btn {
+  background-color: #F4CE14;
+  border-radius: 16px;
+  padding: 10px;
+  height: 20px;
+}
+
+.menu-item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #BDD1D8;
+  width: 290px;
+}
+
+.menu-item .title-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.menu-item h3 {
+  font-size: 1.3rem;
+}
+.menu-item  p, .menu-item > h4 {
+  padding: 0 10px;
+}
+
+.menu-item  .item-price {
+  color: #EE9972;
+}
+.menu-item-image {
+  width: 289px;
+height: 205px;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  background-color: #BDD1D8;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  margin-left: 30px;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.testimonial-card {
+  background-color: #495E57;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.testmonial-rating {
+  display: flex;
+}
+.rating-star {
+  width:19.73px;
+  height: 25px;
+}
+
+.testimonial-customer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.customer-image {
+  width: 171px;
+  height: 176px;
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-section h2, h3 {
+  font-size: 2rem;
+  margin: 0;
+  color: #495E57;
+}
+
+.about-section h3{
+  font-size: 1.3rem;
+}
+
+
+.about-description {
+  width: 30%;
+  margin: 0 50px;
+}
+.about-description p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 140.28%;
+}
+.about-section img {
+  width: 598px;
+  height: 399px;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  margin-right: 150px;
+}
+
+/* Reservations Page */
+
+.table-reservation {
+  margin: 20px;
+  width: 80%;
+  max-width: 500px;
+  background-color: #495E57;
+  margin: 30px auto;
+  padding: 30px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.table-reservation-form {
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-reservation-form input[type="number"], select, input[type="date"] {
+  display: block;
+  width: 280px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 30;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.table-reservation-form input[type="date"]{
+  width: 260px;
+}
+
+.table-reservation-form input[type="number"] {
+  width: 255px;
+}
+
+.table-reservation-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+.table-reservation-form button {
+  margin: auto;
+  padding: 10px;
+  border: #F4CE14 solid 2px;
+  border-radius: 16px;
+  display: block;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+
+.table-reservation-form h4 {
+  color: red;
+}
+
+/* Booking Confirmation Page */
+.booking-confirmation {
+  text-align: center;
+  padding: 50px;
+  color: #495E57;
+}
+
+/* Mobile Media Queries */
+
+@media screen and (max-width: 400px) {
+
+  /* Header, Nav and Footer */
+  header, footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .hero-section {
+    display: flex;
+    flex-flow:column-reverse;
+    text-align: center;
+    position:initial;
+  }
+  .hero-section p {
+    margin: auto;
+  }
+
+  .hero-section .hero-image-container {
+    width: 100%;
+    height: 100%;
+    position:initial;
+  }
+
+  .hero-section .hero-image {
+    position: initial;
+    bottom: auto;
+    margin: auto;
+  }
+
+  .hero-section a {
+    margin: 10px auto;
+    display: inline-block;
+  }
+
+  footer .footer-img, .site-links h2 {
+    margin: 15px auto;
+    text-align: center;
+  }
+  .social-media .image-container {
+    justify-content: center;
+  }
+
+
+/* Menu Section */
+
+  .menu-section {
+    margin: 20px 0px;
+  }
+
+  .menu-header {
+    margin: 0;
+  }
+
+  .menu-item-container {
+    display: block;
+    margin: auto;
+  }
+
+  .menu-item {
+    margin: 0 auto 10px auto;
+    padding-bottom: 10px;
+  }
+
+  /* Testimonial Section */
+  .testimonial-container {
+    display: block;
+  }
+  .testimonial-card {
+    margin-bottom: 5px;
+  }
+
+  /* About Section */
+  .about-section {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .about-description {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .about-description p,h2, h3 {
+    padding: 0 10px;
+  }
+  .about-image {
+    margin: auto;
+  }
+  .about-section img {
+    width: 320px;
+    height: 300px;
+    border: 1px solid #333333;
+    border-radius: 16px;
+    margin-right: auto;
+  }
+}
